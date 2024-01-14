@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+body {
+    background: #000000;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+    font-size: 3vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.circle {
+    margin: 0 auto;
+    width: 25vw;
+    height: 25vw;
+    line-height: 22vw;
+    border-radius: 50%;
+    text-align: center;
+    border:1vw solid #d2cbcb;
+    border-style: double;
+}
+
+.circleContent {
+    display: inline-block;
+    color: #fff;
+    font-size: 3vw;
+    width: 4vw;
+}
+
+.circleContent-span {
+    color: #fff;
+    font-size: 4vw;
+}
+
+.h-position-relative {
+    position: relative;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30vw;
+    font-size: 2vw;
+}
+
+.h-tl {
+    top: 33vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    height: 100%;
+}
+
+.btn {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #313335;
+    padding: 1.4vw;
+    margin: 1vw;
+    border-radius: 1.3vw;
+    display: inline-block;
+    border: none;
+    transition: all 0.8s ease 0s;
+    font-size: 1.2vw;
+}
+
+.btn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.6s ease 0s;
+}
+ 
+.laps {
+    text-align: center;
+    margin-top: 37vw;
+    color: #fff;
+    height: 20vw;  
+    overflow-y: auto;  
+}
+
+#lapList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#lapList li {
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    padding: 0.5vw;
+    border: 0.1vw solid #888686;
+    border-radius: 2vw;
+    width: 20%;
+     
+}
